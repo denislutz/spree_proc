@@ -5,7 +5,6 @@ h1. Installation
 * deactivate the spree_solr_search in the gemfile  and run bundle install (a bug for now sorry)
 * execute:  
 
-rails g spree:site
 bundle exec rake db:migrate
 bundle exec rake db:seed
 bundle exec rake spree_sample:load
