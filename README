@@ -1,8 +1,17 @@
 
-#Without spree solr
+h1. Installation
+
+* clone the git repo
+* deactivate the spree_solr_search in the gemfile  and run bundle install (a bug for now sorry)
+* execute:  
+
 rails g spree:site
 bundle exec rake db:migrate
 bundle exec rake db:seed
+bundle exec rake spree_sample:load
+
+* now activate the spree_solr_search again
+* bundle install 
 
 
 
