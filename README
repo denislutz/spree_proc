@@ -1,0 +1,8 @@
+
+#Without spree solr
+rails g spree:site
+bundle exec rake db:migrate
+bundle exec rake db:seed
+
+
+
